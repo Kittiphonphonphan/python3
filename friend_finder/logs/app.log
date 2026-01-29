@@ -1,0 +1,23 @@
+2026-01-29 07:39:08,130 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-29 07:39:08,130 INFO [33mPress CTRL+C to quit[0m
+2026-01-29 07:39:08,132 INFO  * Restarting with stat
+2026-01-29 07:39:09,525 WARNING  * Debugger is active!
+2026-01-29 07:39:09,531 INFO  * Debugger PIN: 968-513-394
+2026-01-29 07:41:38,035 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-29 07:41:38,035 INFO [33mPress CTRL+C to quit[0m
+2026-01-29 07:41:38,036 INFO  * Restarting with stat
+2026-01-29 07:41:39,372 WARNING  * Debugger is active!
+2026-01-29 07:41:39,376 INFO  * Debugger PIN: 249-201-062
+2026-01-29 07:42:22,910 INFO 127.0.0.1 - - [29/Jan/2026 07:42:22] "GET / HTTP/1.1" 200 -
+2026-01-29 07:42:22,954 INFO 127.0.0.1 - - [29/Jan/2026 07:42:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-29 07:42:38,679 INFO HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-29 07:42:38,682 INFO TOP3 for 'Kittiphon': 
+2026-01-29 07:42:38,683 INFO ADD message from 'Kittiphon': hello
+2026-01-29 07:42:38,686 INFO 127.0.0.1 - - [29/Jan/2026 07:42:38] "POST / HTTP/1.1" 200 -
+2026-01-29 07:43:07,247 INFO HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-29 07:43:07,250 INFO TOP3 for 'mek': Kittiphon:0.8573
+2026-01-29 07:43:07,585 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-29 07:43:07,588 INFO ADD message from 'mek': hi
+2026-01-29 07:43:07,590 INFO 127.0.0.1 - - [29/Jan/2026 07:43:07] "POST / HTTP/1.1" 200 -
